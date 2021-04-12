@@ -101,10 +101,13 @@
 }
 
 .letsGetStarted_container_bady{
-  width: 100%;
-  font-size: 20pt;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  font-size: 20pt;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(56, 151, 56);
 }
 
 </style>
