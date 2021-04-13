@@ -1,27 +1,27 @@
 <template>
-  <div class="container-body">
+  <div class="container">
 
-    <div class="hat">
+    <div class="container-head">
 
       <div class="login">Login</div>
 
       <div class="ceateNewAccaunt_container">
         <button class="button_bady">
-          Ceate New Accaunt
+          Create New Accaunt
         </button>
       </div>
 
     </div>
 
-      <div class="text_container">
+      <div class="container-body">
         Plase use your credentials to log in. If you have forgotten your password, please click the "Forgot password" button.
       </div>
 
-      <div class="input_container">
+      <div class="container-body">
         <input class="input_container_body" placeholder="Your e-mail address">
       </div>
                 
-      <div class="input_container">
+      <div class="container-body">
         <input class="input_container_body" placeholder="Your password">
       </div>
 
@@ -31,7 +31,7 @@
         </button>
       </div>
 
-      <div class="letsGetStarted_container">
+      <div class="container-body">
         <button class="letsGetStarted_container_bady">
           →Let´s get started!
         </button>
@@ -47,7 +47,7 @@
 
 <style>
 
-.container-body{
+.container{
   display: flex;
   flex-direction: column;
   margin: 30px;
@@ -56,7 +56,7 @@
   max-width: 800px;
 }
 
-.hat {
+.container-head{
   display: flex;
   justify-content: space-between;
 }
@@ -67,11 +67,7 @@
   margin:25px 25px;
 }
 
-.text_container{
-  margin:25px 25px;
-}
-
-.input_container{
+.container-body{
   margin:25px 25px;
   font-size: 20pt;
 }
@@ -87,11 +83,6 @@
   margin:25px 25px;
   background: transparent;
   border: inherit;
-}
-
-.letsGetStarted_container{
-  margin:25px 25px;
-  
 }
 
 .letsGetStarted_container_bady{
