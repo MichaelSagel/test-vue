@@ -1,44 +1,38 @@
 <template>
   <div class="container">
 
-    <div class="container-head">
-
-      <div class="login">Login</div>
-
-      <div class="ceateNewAccaunt_container">
+      <div class="login">
+        Login
         <button class="button_bady">
           Create New Accaunt
         </button>
       </div>
 
+    <div class="container-body">
+      Plase use your credentials to log in. If you have forgotten your password,
+      please click the "Forgot password" button.
     </div>
 
-      <div class="container-body">
-        Plase use your credentials to log in. If you have forgotten your password, please click the "Forgot password" button.
-      </div>
+    <div class="container-body">
+      <input class="input_container_body" placeholder="Your e-mail address" />
+    </div>
 
-      <div class="container-body">
-        <input class="input_container_body" placeholder="Your e-mail address">
-      </div>
-                
-      <div class="container-body">
-        <input class="input_container_body" placeholder="Your password">
-      </div>
+    <div class="container-body">
+      <input class="input_container_body" placeholder="Your password" />
+    </div>
 
-      <div class="forgotPassword_container">
-        <button class="button_bady">
-          Forgot password
-        </button>
-      </div>
+    <div class="forgotPassword_container">
+      <button class="button_bady">
+        Forgot password
+      </button>
+    </div>
 
-      <div class="container-body">
-        <button class="letsGetStarted_container_bady">
-          →Let´s get started!
-        </button>
-      </div>
-
-   </div>
-
+    <div class="container-body">
+      <button class="letsGetStarted_container_bady">
+        →Let´s get started!
+      </button>
+    </div>
+  </div>
 </template>
 
 
@@ -47,45 +41,44 @@
 
 <style>
 
-.container{
-  display: flex;
-  flex-direction: column;
-  margin: 30px;
+
+
+.container {
+  display: block;
+  margin: auto;
+  position: relative;
   font-size: 20pt;
-  border: 4px solid gray;
+  border: 4px ridge rgb(26, 207, 207);
+  border-radius: 8px;
   max-width: 800px;
 }
 
-.container-head{
+.login {
   display: flex;
   justify-content: space-between;
-}
-
-.login{
+  align-items: center;
   font-size: 24pt;
-  font-weight: 600;
-  margin:25px 25px;
+  margin: 25px 25px;
 }
 
-.container-body{
-  margin:25px 25px;
-  font-size: 20pt;
+.container-body {
+  margin: 25px 25px;
 }
-.input_container_body{
+.input_container_body {
   font-size: 20pt;
   width: 100%;
 }
 
-.button_bady{
+.button_bady {
   font-size: 20pt;
   text-decoration: underline;
-  text-decoration-color: green;
-  margin:25px 25px;
+  text-decoration-color: rgb(179, 19, 19);
+  margin: 25px 25px;
   background: transparent;
   border: inherit;
 }
 
-.letsGetStarted_container_bady{
+.letsGetStarted_container_bady {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -94,5 +87,4 @@
   border-style: solid;
   border-color: rgb(56, 151, 56);
 }
-
 </style>
