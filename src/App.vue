@@ -1,11 +1,15 @@
 <template>
-  <div class="container">
+  <div class="container-body">
 
     <div class="hat">
 
       <div class="login">Login</div>
 
-      <div class="ceateNewAccaunt_container">Ceate New Accaunt</div>
+      <div class="ceateNewAccaunt_container">
+        <button class="button_bady">
+          Ceate New Accaunt
+        </button>
+      </div>
 
     </div>
 
@@ -13,17 +17,19 @@
         Plase use your credentials to log in. If you have forgotten your password, please click the "Forgot password" button.
       </div>
 
-      <div class="yourEmailAddress_container">
-        <input class="yourEmailAddress_container_body" placeholder="Your e-mail address">
+      <div class="input_container">
+        <input class="input_container_body" placeholder="Your e-mail address">
       </div>
                 
-      <div class="yourPassword_container">
-        <input class="yourPassword_container_body" placeholder="Your password">
+      <div class="input_container">
+        <input class="input_container_body" placeholder="Your password">
       </div>
 
       <div class="forgotPassword_container">
-        Forgot password
-        </div>
+        <button class="button_bady">
+          Forgot password
+        </button>
+      </div>
 
       <div class="letsGetStarted_container">
         <button class="letsGetStarted_container_bady">
@@ -41,11 +47,13 @@
 
 <style>
 
-.container{
+.container-body{
   display: flex;
   flex-direction: column;
   margin: 30px;
   font-size: 20pt;
+  border: 4px solid gray;
+  max-width: 800px;
 }
 
 .hat {
@@ -59,40 +67,26 @@
   margin:25px 25px;
 }
 
-.ceateNewAccaunt_container{
-  font-size: 20pt;
-  text-decoration: underline;
-  text-decoration-color: green;
-}
-
 .text_container{
   margin:25px 25px;
 }
 
-.yourEmailAddress_container{
+.input_container{
   margin:25px 25px;
   font-size: 20pt;
 }
-.yourEmailAddress_container_body{
+.input_container_body{
   font-size: 20pt;
   width: 100%;
 }
 
-.yourPassword_container{
-  margin:25px 25px;
-  font-size: 20pt;
-}
-
-.yourPassword_container_body{
-  width: 100%;
-  font-size: 20pt;
-}
-
-.forgotPassword_container{
+.button_bady{
   font-size: 20pt;
   text-decoration: underline;
   text-decoration-color: green;
   margin:25px 25px;
+  background: transparent;
+  border: inherit;
 }
 
 .letsGetStarted_container{
