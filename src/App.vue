@@ -2,7 +2,7 @@
   <div class="container">
 
       <div class="login">
-        Login
+          Login
         <button class="button_bady">
           Create New Accaunt
         </button>
@@ -41,8 +41,6 @@
 
 <style>
 
-
-
 .container {
   display: block;
   margin: auto;
@@ -59,7 +57,9 @@
   align-items: center;
   font-size: 24pt;
   margin: 25px 25px;
-}
+}@media screen and (max-width: 400px) {
+    .login {flex-direction: column;}
+   }
 
 .container-body {
   margin: 25px 25px;
