@@ -2,17 +2,9 @@
 
   <div class="layout">
     
-    <header class="epx-authentication__header">
-      <img src="https://virtrex-vtf-stage-files.fra1.digitaloceanspaces.com/files/SgAHSsaBTeFU322LvQGTCQ7xwO7dNhMyfvDuTyfh.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ZXTMNN6WRZVJBDDTCWDO%2F20210414%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-Date=20210414T084519Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=7200&amp;X-Amz-Signature=46fb4d27c956d4ec4c618fa50e8e86816ad628cc7ef85cb309584e723202e13c" alt="Virtrex" class="img-gira">
+    <header class="epx-authentication-header">
+      <img src="https://virtrex-vtf-stage-files.fra1.digitaloceanspaces.com/files/SgAHSsaBTeFU322LvQGTCQ7xwO7dNhMyfvDuTyfh.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZXTMNN6WRZVJBDDTCWDO%2F20210415%2Ffra1%2Fs3%2Faws4_request&X-Amz-Date=20210415T112551Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=c3383159750acaa6783c2b1d1e00d1f84f2ea735abbf4625e3066058d96f6453" class="img-gira">
     </header>  
-
-    
-    
-
-
-
-
-
 
 
 
@@ -20,21 +12,9 @@
     <div class="container">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
         <div class="login">
             Login
-          <a class="button_bady" href="">
+          <a class="button-bady cnw" href="">
             Create New Accaunt
           </a>
         </div>
@@ -45,21 +25,26 @@
       </div>
 
       <div class="container-body">
-        <input class="input_container_body" placeholder="Your e-mail address" />
+        <label>
+          <div class="div-container-body">
+            Your e-mail address
+          </div>
+          <input class="input-container-body" placeholder="Your e-mail address"/>
+        </label>  
       </div>
 
       <div class="container-body">
-        <input class="input_container_body" placeholder="Your password" />
+        <input class="input-container_body" placeholder="Your password"/>
       </div>
 
-      <div class="forgotPassword_container">
-        <a class="button_bady" href="">
+      <div class="forgotPassword-container">
+        <a class="button-bady" href="">
           Forgot password
         </a>
       </div>
 
       <div class="container-body">
-        <button class="letsGetStarted_container_bady">
+        <button class="letsGetStarted-container-bady">
           →Let´s get started!
         </button>
       </div>
@@ -73,13 +58,29 @@
 
 <style>
 
+label {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.div-container-body {
+  display: block;
+  transform: translateY(10px);
+}
+
+
+
+
 .layout {
   position: relative;
   margin: 16px;
+  
 }
 
 .img-gira {
   height: 44px;
+  margin: 8px;
 }
 
 .container {
@@ -89,31 +90,19 @@
   border: 4px ridge gray;
   border-radius: 8px;
   max-width: 800px;
+  margin-top: 200px;
 }
 
-
-
-
-
-
-.vtx-typo-header-2 {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 32px;
+.button-bady {
+  font-size: 16pt;
+  text-decoration: underline;
+  text-decoration-color: #aacc5c;
+  color: black;
+  margin: 25px 25px;
+  background: transparent;
+  border: inherit;
+  border-radius: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .login {
@@ -122,45 +111,52 @@
   align-items: center;
   font-size: 24pt;
   margin: 25px 25px;
-}@media screen and (max-width: 400px) {
-    .login {flex-direction: column;}
-   }
+}@media screen and (max-width: 640px) {
+    .cnw {
+      position: absolute;
+      top: +170px;
+      right: -22px;
+      text-decoration-color: red;
+    }
+  }
 
 .container-body {
   margin: 25px 25px;
+  border-radius: 8px;
 }
-.input_container_body {
+.input-container-body {
+  display: flex;
+  flex-direction: column;
   font-size: 20pt;
   width: 100%;
-}
-
-.button_bady {
-  font-size: 20pt;
-  text-decoration: underline;
-  text-decoration-color: rgb(179, 19, 19);
-  margin: 25px 25px;
-  background: transparent;
-  border: inherit;
+  min-height: 56px;
   border-radius: 8px;
 }
 
-.button_bady:hover {
-  background-color: green;
+
+
+.button-bady:hover {
+  background-color: #aacc5c;
 }
 
 
-.letsGetStarted_container_bady {
+.letsGetStarted-container-bady {
   display: flex;
   justify-content: space-between;
   width: 100%;
   font-size: 20pt;
   background-color: white;
   border-style: solid;
-  border-color: rgb(56, 151, 56);
+  border-color: #aacc5c;
+  border-radius: 8px;
 }
 
-.letsGetStarted_container_bady:hover {
-  background-color: green;
+.letsGetStarted-container-bady:hover {
+  background-color: #aacc5c;
+}
+
+.body{
+  display: block;
 }
 
 </style>
