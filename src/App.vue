@@ -26,15 +26,15 @@
 
       <div class="container-body">
         <label>
-          <div class="div-container-body">
+          <div class="input-container-body">
             Your e-mail address
           </div>
-          <input class="input-container-body" placeholder="Your e-mail address"/>
+          <input class="input-container-footer" placeholder="Your e-mail address"/>
         </label>  
       </div>
 
       <div class="container-body">
-        <input class="input-container_body" placeholder="Your password"/>
+        <input class="input-container-footer" placeholder="Your password"/>
       </div>
 
       <div class="forgotPassword-container">
@@ -118,13 +118,14 @@ label {
       right: -22px;
       text-decoration-color: red;
     }
+    
   }
 
 .container-body {
   margin: 25px 25px;
   border-radius: 8px;
 }
-.input-container-body {
+.input-container-footer {
   display: flex;
   flex-direction: column;
   font-size: 20pt;
@@ -133,6 +134,20 @@ label {
   border-radius: 8px;
 }
 
+.input-container-body{
+  box-sizing: border-box;
+  display: none;
+  font-size: 12pt;
+  color: gray;
+}@media screen and (max-width: 640px) {
+    .input-container-body {
+      display: block;
+      position: absolute;
+      top: +450px;
+      left: +40px;
+    }
+    
+  }
 
 
 .button-bady:hover {
