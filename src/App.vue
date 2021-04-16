@@ -3,7 +3,7 @@
   <div class="layout">
     
     <header class="img-gira">
-      <img src="https://virtrex-vtf-stage-files.fra1.digitaloceanspaces.com/files/SgAHSsaBTeFU322LvQGTCQ7xwO7dNhMyfvDuTyfh.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZXTMNN6WRZVJBDDTCWDO%2F20210415%2Ffra1%2Fs3%2Faws4_request&X-Amz-Date=20210415T174037Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=c986597f62970aae3cbdb0b06789ee58ff1dd5f2d8b1c2b84ae1cc054fa45a95" class="img-gira-bady">
+      <img src="https://virtrex-vtf-stage-files.fra1.digitaloceanspaces.com/files/SgAHSsaBTeFU322LvQGTCQ7xwO7dNhMyfvDuTyfh.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZXTMNN6WRZVJBDDTCWDO%2F20210416%2Ffra1%2Fs3%2Faws4_request&X-Amz-Date=20210416T132037Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=e234160f0443aa7758c9403d339d4bddf422ae24aaa7389fd4711b667306fac2" class="img-gira-bady">
     </header>  
 
 
@@ -92,7 +92,7 @@ label {
 .background{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -170,10 +170,11 @@ label {
 }@media screen and (max-width: 640px) {
     .cnw {
       position: absolute;
-      top: +170px;
-      right: -22px;
+      top: +180px;
+      right: +15px;
       text-decoration-color: red;
     }
+
     
   }
 
