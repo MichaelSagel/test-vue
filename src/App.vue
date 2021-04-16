@@ -2,9 +2,19 @@
 
   <div class="layout">
     
-    <header class="epx-authentication-header">
-      <img src="https://virtrex-vtf-stage-files.fra1.digitaloceanspaces.com/files/SgAHSsaBTeFU322LvQGTCQ7xwO7dNhMyfvDuTyfh.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZXTMNN6WRZVJBDDTCWDO%2F20210415%2Ffra1%2Fs3%2Faws4_request&X-Amz-Date=20210415T112551Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=c3383159750acaa6783c2b1d1e00d1f84f2ea735abbf4625e3066058d96f6453" class="img-gira">
+    <header class="img-gira">
+      <img src="https://virtrex-vtf-stage-files.fra1.digitaloceanspaces.com/files/SgAHSsaBTeFU322LvQGTCQ7xwO7dNhMyfvDuTyfh.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZXTMNN6WRZVJBDDTCWDO%2F20210415%2Ffra1%2Fs3%2Faws4_request&X-Amz-Date=20210415T174037Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=c986597f62970aae3cbdb0b06789ee58ff1dd5f2d8b1c2b84ae1cc054fa45a95" class="img-gira-bady">
     </header>  
+
+
+  <div class="background">
+    <div class="background-imag">
+    </div>
+    <div class="background-imag-2">
+
+    </div>
+  </div>
+
 
 
 
@@ -19,7 +29,7 @@
           </a>
         </div>
 
-      <div class="container-body">
+      <div class="container-body-text">
         Plase use your credentials to log in. If you have forgotten your password,
         please click the "Forgot password" button.
       </div>
@@ -58,11 +68,53 @@
 
 <style>
 
+*, :after, :before {
+    box-sizing: border-box;
+}
+
 label {
   display: flex;
   flex-direction: column;
-  
+  position: relative;
 }
+
+.layout {
+  position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 36px;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -10;
+    
+}
+
+.background-imag {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-image: url(https://expo.stage.virtrex.de/img/pattern_gradient.svg);
+    background-position: 100% 75%;
+    background-size: cover;
+    opacity: .1;
+}
+
+.background-imag-2 {
+    
+}
+
 
 .div-container-body {
   display: block;
@@ -72,15 +124,19 @@ label {
 
 
 
-.layout {
-  position: relative;
-  margin: 16px;
-  
+
+.img-gira{
+  width: 100%;
+  padding-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+  position: relative
 }
 
-.img-gira {
+.img-gira-bady {
   height: 44px;
   margin: 8px;
+  
 }
 
 .container {
@@ -90,7 +146,7 @@ label {
   border: 4px ridge gray;
   border-radius: 8px;
   max-width: 800px;
-  margin-top: 200px;
+  background-color: white;
 }
 
 .button-bady {
@@ -124,13 +180,16 @@ label {
 .container-body {
   margin: 25px 25px;
   border-radius: 8px;
-}
-.input-container-footer {
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  font-size: 20pt;
-  width: 100%;
-  min-height: 56px;
+  padding: 8px 10px;
+  
+}
+
+.container-body-text {
+  margin: 25px 25px;
   border-radius: 8px;
 }
 
@@ -139,15 +198,19 @@ label {
   display: none;
   font-size: 12pt;
   color: gray;
-}@media screen and (max-width: 640px) {
-    .input-container-body {
-      display: block;
-      position: absolute;
-      top: +450px;
-      left: +40px;
-    }
-    
-  }
+}
+
+.input-container-footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 20pt;
+  width: 100%;
+  min-height: 56px;
+  border: 0;
+  outline: 0;
+}
+
+
 
 
 .button-bady:hover {
@@ -173,5 +236,10 @@ label {
 .body{
   display: block;
 }
+
+.div {
+  display: block;
+}
+
 
 </style>
