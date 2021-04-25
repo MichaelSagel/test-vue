@@ -3,7 +3,7 @@
   <div class="layout">
       
       <header class="img-gira">
-        <img src="https://virtrex-vtf-stage-files.fra1.digitaloceanspaces.com/files/SgAHSsaBTeFU322LvQGTCQ7xwO7dNhMyfvDuTyfh.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZXTMNN6WRZVJBDDTCWDO%2F20210425%2Ffra1%2Fs3%2Faws4_request&X-Amz-Date=20210425T125146Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=d845e724825f1ec83fa0376c6bd372842ef296449ddcc8dc4a3a28b041af0f5c" alt="Gira-Logo" class="img-gira-bady">
+        <img src="https://virtrex-vtf-stage-files.fra1.digitaloceanspaces.com/files/SgAHSsaBTeFU322LvQGTCQ7xwO7dNhMyfvDuTyfh.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZXTMNN6WRZVJBDDTCWDO%2F20210425%2Ffra1%2Fs3%2Faws4_request&X-Amz-Date=20210425T150515Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=57cbf8ee036f241647210cef8f989f81dfba06035a5cf916758c38cda7cffe53" alt="Gira-Logo" class="img-gira-bady">
       </header>  
 
 
@@ -56,7 +56,7 @@
           </a>
         </div>
 
-        <div class="container-body">
+        <div class="container-body-button">
           <button class="letsGetStarted-container-bady">
             →Let´s get started!
           </button>
@@ -133,7 +133,7 @@ label {
 }
 
 
-
+:enabled
 
 
 .img-gira{
@@ -167,10 +167,16 @@ label {
   text-decoration-color: #aacc5c;
   color: black;
   margin: 25px 25px;
+  padding: 4px;
   background: transparent;
   border: inherit;
-  border-radius: 8px;
+  border-radius: 4px;
 }
+
+.button-bady:hover {
+  background-color: #aacc5c;
+}
+
 
 
 .login {
@@ -200,7 +206,8 @@ label {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  padding: 8px 10px;
+  padding: 8px;
+  
   
 }
 
@@ -236,11 +243,6 @@ font-size: 18px;
 
 
 
-.button-bady:hover {
-  background-color: #aacc5c;
-}
-
-
 .letsGetStarted-container-bady {
   display: flex;
   justify-content: space-between;
@@ -249,11 +251,23 @@ font-size: 18px;
   background-color: white;
   border-style: solid;
   border-color: #aacc5c;
-  border-radius: 8px;
+  padding: 4px;
+  border-radius: 6px;
+  
 }
 
 .letsGetStarted-container-bady:hover {
   background-color: #aacc5c;
+}
+
+.container-body-button{
+  border: 0;
+  margin: 25px 25px;
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .body{
@@ -263,6 +277,7 @@ font-size: 18px;
 .div {
   display: block;
 }
+
 
 
 </style>
