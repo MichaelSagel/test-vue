@@ -133,8 +133,6 @@ label {
 }
 
 
-:enabled
-
 
 .img-gira{
   width: 100%;
@@ -278,6 +276,8 @@ font-size: 18px;
   display: block;
 }
 
+
+:enabled
 
 
 </style>
