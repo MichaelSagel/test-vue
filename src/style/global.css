@@ -1,9 +1,17 @@
 
+
+
+
+body{
+  display: block;
+  margin: 0;
+}
+
 *, :after, :before {
     box-sizing: border-box;
 }
 
-label {
+.label {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -111,7 +119,8 @@ label {
   align-items: center;
   font-size: 24pt;
   margin: 25px 25px;
-}@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 640px) {
     .cnw {
       position: absolute;
       top: -80px;
@@ -133,16 +142,25 @@ label {
   display: flex;
   flex-direction: column;
   padding: 8px;
-  
-  
+  max-height: 60px;
 }
 
 input:focus{ 
-font-size: 18px;
-
-
-
+  display: flex;
+  flex-direction:column-reverse;
+  font-size: 20px;
 }
+
+label{
+  cursor: text;
+  position: relative;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 56px;
+}
+
+
 
 .container-body-text {
   margin: 25px 25px;
@@ -150,23 +168,35 @@ font-size: 18px;
 }
 
 .input-container-body{
-  box-sizing: border-box;
-  display: none;
-  font-size: 12pt;
-  color: gray;
+  display: block;
+  transform: translateY(-4px);
+  transition: all .1s;
+  font-size: 16px;
+  line-height: 20px;
+  height: 13px;
+  color: rgba(28,28,51,.24);
+  line-height: 1;
+  
 }
 
 .input-container-footer {
   display: flex;
   flex-direction: column;
-  font-size: 20pt;
+  transform: translateY(-15px);
+  font-size: 18pt;
   width: 100%;
-  min-height: 56px;
   border: 0;
   outline: 0;
+  padding: 0;
+  margin: 0;
+  background: white;
+  color: #1c1c33;
+  
 }
 
-
+.input-container-footer:focus {
+  transform: translateY(2px);
+}
 
 
 .letsGetStarted-container-bady {
@@ -196,15 +226,6 @@ font-size: 18px;
   flex-direction: column;
 }
 
-.body{
-  display: block;
-  margin: 0;
-}
-
-.div {
+div {
   display: block;
 }
-
-
-:enabled
-
