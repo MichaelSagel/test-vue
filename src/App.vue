@@ -1,7 +1,5 @@
 <template>
 
-  <div>
-
     <div class="layout">
         
       <header class="img-gira">
@@ -83,7 +81,6 @@
           </div>
         </div>
     </div> 
-  </div>
 </template>
 
 <style>
