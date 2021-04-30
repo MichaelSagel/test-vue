@@ -1,7 +1,7 @@
 <template>
 
-    <div class="layout">
-        
+  <div class="layout">
+    <div class="layout-bady">
       <header class="img-gira">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Logo_Gira_Giersiepen.svg/2000px-Logo_Gira_Giersiepen.svg.png" alt="Gira-Logo" class="img-gira-bady">
       </header>  
@@ -16,11 +16,13 @@
         </svg>
       </div>
 
-        <div class="container">
+      <div class="container">
+
+        <div class="container-bady">
 
           <div class="login">
             Login
-            <a class="button-bady cnw" href="">
+            <a class="button-bady createNewAccaunt" href="">
               Create New Accaunt
             </a>
           </div>
@@ -60,27 +62,30 @@
             </button>
           </div>
         </div>
-        <div class=footer>
-          <div class="virtex">
-            Virtex
-          </div>
-          <div class="data text-footer">
-            2021
-          </div>
-          <div class="all-rightsr-eserved text-footer">
-            All rights reserved.
-          </div>
-          <div class="imprint-privacypolicy">
-            <a href="" class="text-footer">
-              Imprint
-            </a>
-              {{'\xa0'}}
-            <a href="" class="text-footer">
-              Privacy Policy
-            </a>
-          </div>
+      </div>
+
+      <div class=footer>
+        <div class="virtex">
+          Virtex
         </div>
-    </div> 
+        <div class="data text-footer">
+          2021
+        </div>
+        <div class="all-rightsr-eserved text-footer">
+          All rights reserved.
+        </div>
+        <div class="imprint-privacypolicy">
+          <a href="" class="text-footer">
+            Imprint
+          </a>
+            {{'\xa0'}}
+          <a href="" class="text-footer">
+            Privacy Policy
+          </a>
+        </div>
+      </div>
+    </div>
+  </div> 
 </template>
 
 <style>
