@@ -49,7 +49,7 @@
           </div>
 
           <div class="forgotPassword-container">
-            <a class="button-bady" href="">
+            <a class="button-bady color-change" href="">
               Forgot password
             </a>
           </div>
