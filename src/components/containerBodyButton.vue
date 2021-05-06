@@ -1,11 +1,13 @@
 <template>
-    <div class="container-body-button">
 
-        <button class="letsGetStarted-container-bady">
+  <div class="container-body-button">
 
-          →Let´s get started!
+    <button class="letsGetStarted-container-bady">
 
-        </button>
+      →Let´s get started!
 
-      </div>
+    </button>
+
+  </div>
+
 </template>
