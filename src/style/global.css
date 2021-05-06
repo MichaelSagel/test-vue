@@ -82,12 +82,7 @@ div {
   max-width: 768px;
 }
 
-.container-bady {
-  border: 1px solid #f0f0f0;
-  border-radius: 4px;
-  background-color: #fcfcfc;
-  padding: 36px;
-}
+
 
 .login {
   display: flex;
@@ -120,6 +115,13 @@ div {
 .container-body-text {
   margin: 25px 25px;
   border-radius: 8px;
+}
+
+.container-bady {
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  background-color: #fcfcfc;
+  padding: 36px;
 }
 
 .container-body {
@@ -159,7 +161,7 @@ input:focus{
   transform: translateY(0px);
 }
 
-.input-container-footer {
+.input-container-info {
   display: flex;
   flex-direction: column;
   transform: translateY(-22px);
@@ -173,7 +175,7 @@ input:focus{
   color: #1c1c33;
 }
 
-.input-container-footer:focus {
+.input-container-info:focus {
   transform: translateY(-4px);
 }
 
@@ -203,7 +205,7 @@ input:focus{
   background-color: #aacc5c;
 }
 
-.footer{
+.info{
   width: 100%;
   position: relative;
   padding-top: 36px;
@@ -217,7 +219,7 @@ input:focus{
   line-height: 28px;
 }
 
-.text-footer {
+.text-info {
   font-size: 12px;
   line-height: 16px;
   font-weight: 500;
