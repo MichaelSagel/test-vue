@@ -1,51 +1,49 @@
 <template>
 
-  <div class="container-bady">
+  <div class="container">
 
-    <div class="login">
-      Login
-      <a class="button-bady createNewAccaunt" href="">
-        Create New Accaunt
-      </a>
-    </div>
+    <div class="container-bady">
 
-    <containerBodyText></containerBodyText>
-    <div class="container-body-text">
-      Plase use your credentials to log in. If you have forgotten your password,
-      please click the "Forgot password" button.
-    </div>
+      <login></login>
 
-    <div class="container-body">
-      <label>
-        <div class="input-container-body">
-          Your e-mail address
-        </div>
-        <input class="input-container-footer" placeholder="Your e-mail address"/>
-      </label>  
-    </div>
+      <containerBodyText></containerBodyText>
 
-    <div class="container-body">
-      <label>
-        <div class="input-container-body">
-          Your password
-        </div>
-        <input class="input-container-footer" placeholder="Your password"/>
-      </label>  
-    </div>
+      <mail></mail>
+      
+      <password></password>
 
-    <div class="forgotPassword-container">
-      <a class="button-bady" href="">
-        Forgot password
-      </a>
-    </div>
+      <forgotPassword></forgotPassword>
 
-    <div class="container-body-button">
-      <button class="letsGetStarted-container-bady">
-        →Let´s get started!
-      </button>
+      <containerBodyButton></containerBodyButton>
+
     </div>
 
   </div>
 
 </template>
 
+<script> 
+
+  import containerBodyText from './containerBodyText.vue'
+  import mail from './mail.vue'
+  import password from './password.vue'
+  import login from './login.vue'
+  import forgotPassword from './forgotPassword.vue'
+  import containerBodyButton from './containerBodyButton.vue'
+
+  /*
+  import containerBodyButton from './containerBodyButton.vue'
+  */
+
+  export default {
+    components: {
+      containerBodyText,
+      mail,
+      password,
+      login,
+      forgotPassword,
+      containerBodyButton,
+    }
+  }
+
+</script>
