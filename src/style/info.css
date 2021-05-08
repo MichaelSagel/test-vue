@@ -1,0 +1,20 @@
+.info{
+    width: 100%;
+    position: relative;
+    padding-top: 36px;
+    color: #fcfcfc;
+}
+    
+.virtex{
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+    
+.text-info {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #fcfcfc;
+}

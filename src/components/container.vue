@@ -47,3 +47,9 @@
   }
 
 </script>
+
+<style>
+
+  @import './../style/container.css';
+
+</style>

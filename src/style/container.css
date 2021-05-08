@@ -1,0 +1,13 @@
+
+.container-bady {
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    background-color: #fcfcfc;
+    padding: 36px;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 768px;
+}

@@ -7,3 +7,9 @@
     </header>
 
 </template>
+
+<style>
+
+  @import './../style/logo.css';
+
+</style>

@@ -11,3 +11,9 @@
   </div>
 
 </template>
+
+<style>
+
+  @import './../style/containerBodyButton.css';
+
+</style>

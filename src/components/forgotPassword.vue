@@ -1,13 +1,19 @@
 <template>
 
-    <div class="forgotPassword-container">
+  <div>
 
-        <a class="button-bady" href="">
+    <a class="button-bady" href="">
 
-            Forgot password
+        Forgot password
 
-        </a>
+    </a>
 
-    </div>
+  </div>  
 
 </template>
+
+<style>
+
+  @import './../style/buttonBady.css';
+
+</style>

@@ -19,3 +19,9 @@
   </div>
 
 </template>
+
+<style>
+
+  @import './../style/background.css';
+
+</style>

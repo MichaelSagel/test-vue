@@ -13,3 +13,10 @@
     </div>
 
 </template>
+
+<style>
+
+  @import './../style/login.css';
+  @import './../style/buttonBady.css';
+
+</style>

@@ -1,19 +1,25 @@
 <template>
 
-    <div class="container-body">
+  <div class="input-container-hader">
 
-      <label>
+    <label>
 
-        <div class="input-container-body">
+      <div class="input-container-body">
 
-          Your e-mail address
+        Your e-mail address
 
-        </div>
+      </div>
 
-        <input class="input-container-footer" placeholder="Your e-mail address"/>
+      <input class="input-container-footer" placeholder="Your e-mail address"/>
 
-      </label>  
+    </label>  
 
   </div>
 
 </template>
+
+<style>
+
+  @import './../style/input.css';
+
+</style>

@@ -1,6 +1,7 @@
 <template>
 
   <div class="layout">
+
     <div class="layout-bady">
 
       <logo></logo> 
@@ -9,7 +10,6 @@
       
       <container></container>
         
-
       <info></info>
 
     </div>
@@ -18,7 +18,7 @@
 
 </template>
 
-<script> background
+<script> 
 
   import info from './components/info.vue'
   import background from './components/background.vue'
@@ -44,5 +44,6 @@
 <style>
 
   @import './style/global.css';
+  @import './style/app.css';
 
 </style>

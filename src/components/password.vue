@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container-body">
+  <div class="input-container-hader">
 
     <label>
 
@@ -17,3 +17,9 @@
   </div>
 
 </template>
+
+<style>
+
+  @import './../style/input.css';
+
+</style>

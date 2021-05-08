@@ -1,0 +1,19 @@
+.button-bady {
+    font-size: 14pt;
+    text-decoration: underline;
+    text-decoration-color: #aacc5c;
+    color: black;
+    margin: 25px 25px;
+    padding: 8px 0;
+    transition: padding .2s;
+    background: transparent;
+    border: inherit;
+    border-radius: 4px;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 8px;
+    }
+    
+.button-bady:hover {
+    background-color: #aacc5c;
+}

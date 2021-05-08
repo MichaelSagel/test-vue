@@ -35,3 +35,9 @@
   </div>
 
 </template>
+
+<style>
+
+  @import './../style/info.css';
+
+</style>
