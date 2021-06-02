@@ -6,7 +6,7 @@
 
         <a class="button-bady createNewAccaunt" href="">
 
-          Create New Accaunt
+          Create New Account
           
         </a>
 

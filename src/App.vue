@@ -14,12 +14,18 @@
 
     </div>
 
+    <div>
+
+      <router-link to="/about">Перейти к Home</router-link>
+      <router-view></router-view>
+
+    </div>
+
   </div> 
 
 </template>
 
 <script> 
-
   import info from './components/info.vue'
   import background from './components/background.vue'
   import logo from './components/logo.vue'
@@ -27,7 +33,6 @@
   /*
   import logo from './components/logo.vue'
   */
-
   export default {
     components: {
       info,
@@ -36,14 +41,11 @@
       container,
     }
   }
-
 </script>
 
 
 
 <style>
-
   @import './style/global.css';
   @import './style/app.css';
-
 </style>
