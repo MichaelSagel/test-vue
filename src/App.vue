@@ -8,16 +8,13 @@
 
       <background></background>
       
-      <container></container>
+      <router-view>
+
+        <home1></home1>
+      
+      </router-view>
         
       <info></info>
-
-    </div>
-
-    <div>
-
-      <router-link to="/about">Перейти к Home</router-link>
-      <router-view></router-view>
 
     </div>
 
@@ -29,7 +26,7 @@
   import info from './components/info.vue'
   import background from './components/background.vue'
   import logo from './components/logo.vue'
-  import container from './components/container.vue'
+  import home1 from './pages/home1.vue'
   /*
   import logo from './components/logo.vue'
   */
@@ -38,8 +35,8 @@
       info,
       background,
       logo,
-      container,
-    }
+      home1,
+    },
   }
 </script>
 

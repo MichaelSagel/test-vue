@@ -4,8 +4,6 @@
 
     <div class="container-bady">
 
-      <router-view></router-view>
-
       <login></login>
 
       <containerBodyText></containerBodyText>
@@ -26,12 +24,12 @@
 
 <script> 
 
-  import containerBodyText from './containerBodyText.vue'
-  import mail from './mail.vue'
-  import password from './password.vue'
-  import login from './login.vue'
-  import forgotPassword from './forgotPassword.vue'
-  import containerBodyButton from './containerBodyButton.vue'
+  import containerBodyText from './../components/containerBodyText.vue'
+  import mail from './../components/mail.vue'
+  import password from './../components/password.vue'
+  import login from './../components/login.vue'
+  import forgotPassword from './../components/forgotPassword.vue'
+  import containerBodyButton from './../components/containerBodyButton.vue'
 
   /*
   import containerBodyButton from './containerBodyButton.vue'

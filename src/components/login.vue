@@ -4,11 +4,7 @@
 
         Login
 
-        <a class="button-bady createNewAccaunt" href="">
-
-          Create New Account
-          
-        </a>
+          <router-link class="button-bady createNewAccaunt" to="/about">Create New Account</router-link>
 
     </div>
 

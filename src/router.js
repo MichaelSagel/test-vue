@@ -1,14 +1,14 @@
 
-import Home from './pages/Home'
-import About from './pages/About'
+import home1 from './pages/home1'
+import about from './pages/about'
 
 export default [
         {
             path: '/',
-            component: Home
+            component: home1
         },
         {
             path: '/about',
-            component: About
+            component: about
         },
     ];
