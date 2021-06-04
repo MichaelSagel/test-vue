@@ -1,17 +1,30 @@
 <template>
-    
-    <div>
-        
-        <router-link class="button-bady createNewAccaunt" to="/">Назад</router-link>
+
+    <div class="container-bady">
+
+      <router-link class="button-bady createNewAccaunt" to="/">Back</router-link>
 
     </div>
 
+
 </template>
 
-<script>
+<script> 
 
-    export default{
+  /*
+  import containerBodyButton from './containerBodyButton.vue'
+  */
 
+  export default {
+    components: {
     }
+  }
 
 </script>
+
+<style>
+
+  @import './../style/login.css';
+  @import './../style/buttonBady.css';
+
+</style>
